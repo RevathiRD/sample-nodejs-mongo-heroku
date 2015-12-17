@@ -11,7 +11,8 @@ env:
     - APP_NAME= nodejs-mongo-h
     - MONGOLAB_URI=mongodb://localhost/test
     - XUNIT_FILE=shippable/testresults/result.xml
-    - secure: oA1+4u0Kxc+CcJMTMpmo12pDTuYGLhbdM4Xbx28mG20x/ggZUhR16qGWCO37bRapvzEfJoCmiHKN9oN7O+iMwXksk8W0kmCUTMU/jK1jdykQi2iMkKOlo1kpzMo+9iqLODVKKrmNgXYtKpd+JYNeDVgWN2cE1CvF2ja2fQGmnPSaOMddhAK9DKgZFOmvdv/OAuR2xFlCnFRKXxakc2Ni7KAXG+CktD3Ma/l6+G6Xdtk7lEDue+raIlacf5++8IgdmU/wqa13YtZlO5ZR+58Aydee7rvhvPogIJ5BTbz7aUSM+KAqS3R4F6Q0am8ipZ1VolidXxWdyRW0avKLoLlvIg== 
+    - secure: dloXaNsJxVS6RuBEhphSVFq60afDmWvNomq3XP5HMy17bsbyShi/dJ/snDE+xgoRlWlN89CeNc0QzhnWXYYXyTDb+VYvRELCfND9pJ2Lxfr9NG7IytzRjTtAEVpKCrO3F+USbCoVxGst3e7JBEGZ+okP62tPJu4eBn370Ua/ssed6EsohJpwolFIEUHFtpdfcHuZBLxqLUtJW6YwLb5q7eFMsN/4gQSbADFMoIuWxss4nJkx7mXiFZE+Z+PMsckNYmvYpOZMXMFTiT+X4qZ5Z6tTt9TgNA+NVLbgLrx+WId0qel8BXJ6Bku5c32aWlMe9R0xYM1YoAPZzsSNhkSNUg== 
+    #- secure: oA1+4u0Kxc+CcJMTMpmo12pDTuYGLhbdM4Xbx28mG20x/ggZUhR16qGWCO37bRapvzEfJoCmiHKN9oN7O+iMwXksk8W0kmCUTMU/jK1jdykQi2iMkKOlo1kpzMo+9iqLODVKKrmNgXYtKpd+JYNeDVgWN2cE1CvF2ja2fQGmnPSaOMddhAK9DKgZFOmvdv/OAuR2xFlCnFRKXxakc2Ni7KAXG+CktD3Ma/l6+G6Xdtk7lEDue+raIlacf5++8IgdmU/wqa13YtZlO5ZR+58Aydee7rvhvPogIJ5BTbz7aUSM+KAqS3R4F6Q0am8ipZ1VolidXxWdyRW0avKLoLlvIg== 
     #- secure: MRuHkLbL9HPkJPU5lzkKM1+NOq1S5RrhxEyhJkk60xxYiF7DMzydiBN8oFBjWrSmyGeGRuEC22a0I5ItobdWVszfcJCaXHwtfKzfGOUdKuyCnDgvojXhv/jrBvULyLK6zsLw3b8NMxdnwNsHqSPm19qW/EIGEl9Zv/637Igos69z9aT7+xrEG013+6HtKYb8RHm+iPSNsFoBi/RSAHYuM1eLTZWG2WAkjgzZaYmrHCgNwVmk+HOGR+TOWN7Iu5lrjyvC1XDCQrOvo1hZI30cd9OqJ5aadFm3exQpNhI4I7AgOnCbK3NoWNc/GAnqKXCvsaIQ80Jd/uLIOVyMjD6Xmg==
   
 before_install:
