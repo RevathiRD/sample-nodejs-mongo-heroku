@@ -8,11 +8,12 @@ services:
 
 env:
   global:
-    - APP_NAME=thawing-journey-6674
+    - APP_NAME= nodejs-mongo-h
     - MONGOLAB_URI=mongodb://localhost/test
     - XUNIT_FILE=shippable/testresults/result.xml
-    - secure: MRuHkLbL9HPkJPU5lzkKM1+NOq1S5RrhxEyhJkk60xxYiF7DMzydiBN8oFBjWrSmyGeGRuEC22a0I5ItobdWVszfcJCaXHwtfKzfGOUdKuyCnDgvojXhv/jrBvULyLK6zsLw3b8NMxdnwNsHqSPm19qW/EIGEl9Zv/637Igos69z9aT7+xrEG013+6HtKYb8RHm+iPSNsFoBi/RSAHYuM1eLTZWG2WAkjgzZaYmrHCgNwVmk+HOGR+TOWN7Iu5lrjyvC1XDCQrOvo1hZI30cd9OqJ5aadFm3exQpNhI4I7AgOnCbK3NoWNc/GAnqKXCvsaIQ80Jd/uLIOVyMjD6Xmg==
-
+    - secure: oA1+4u0Kxc+CcJMTMpmo12pDTuYGLhbdM4Xbx28mG20x/ggZUhR16qGWCO37bRapvzEfJoCmiHKN9oN7O+iMwXksk8W0kmCUTMU/jK1jdykQi2iMkKOlo1kpzMo+9iqLODVKKrmNgXYtKpd+JYNeDVgWN2cE1CvF2ja2fQGmnPSaOMddhAK9DKgZFOmvdv/OAuR2xFlCnFRKXxakc2Ni7KAXG+CktD3Ma/l6+G6Xdtk7lEDue+raIlacf5++8IgdmU/wqa13YtZlO5ZR+58Aydee7rvhvPogIJ5BTbz7aUSM+KAqS3R4F6Q0am8ipZ1VolidXxWdyRW0avKLoLlvIg== 
+    #- secure: MRuHkLbL9HPkJPU5lzkKM1+NOq1S5RrhxEyhJkk60xxYiF7DMzydiBN8oFBjWrSmyGeGRuEC22a0I5ItobdWVszfcJCaXHwtfKzfGOUdKuyCnDgvojXhv/jrBvULyLK6zsLw3b8NMxdnwNsHqSPm19qW/EIGEl9Zv/637Igos69z9aT7+xrEG013+6HtKYb8RHm+iPSNsFoBi/RSAHYuM1eLTZWG2WAkjgzZaYmrHCgNwVmk+HOGR+TOWN7Iu5lrjyvC1XDCQrOvo1hZI30cd9OqJ5aadFm3exQpNhI4I7AgOnCbK3NoWNc/GAnqKXCvsaIQ80Jd/uLIOVyMjD6Xmg==
+  
 before_install:
   - which heroku || wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
